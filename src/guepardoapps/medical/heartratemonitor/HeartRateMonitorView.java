@@ -16,11 +16,12 @@ import android.view.SurfaceView;
 import android.view.View;
 import android.widget.TextView;
 
+import guepardoapps.library.toolset.common.Logger;
+import guepardoapps.library.toolset.controller.PermissionController;
+
 import guepardoapps.medical.heartratemonitor.common.constants.Enables;
 import guepardoapps.medical.heartratemonitor.common.enums.PixelType;
 import guepardoapps.medical.heartratemonitor.processing.ImageProcessing;
-import guepardoapps.toolset.common.Logger;
-import guepardoapps.toolset.controller.PermissionController;
 
 @SuppressWarnings("deprecation")
 public class HeartRateMonitorView extends Activity {

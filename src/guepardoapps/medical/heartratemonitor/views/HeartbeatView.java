@@ -9,11 +9,12 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 
+import guepardoapps.library.toolset.common.Logger;
+
 import guepardoapps.medical.heartratemonitor.HeartRateMonitorView;
 import guepardoapps.medical.heartratemonitor.R;
 import guepardoapps.medical.heartratemonitor.common.constants.Enables;
 import guepardoapps.medical.heartratemonitor.common.enums.PixelType;
-import guepardoapps.toolset.common.Logger;
 
 public class HeartbeatView extends View {
 
